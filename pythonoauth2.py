@@ -13,6 +13,7 @@ consumer_secret="UWRJrJrOc379uQW3sAdTOu4s7X2GjOkKmCCRhvHM1ug"
 access_token="167338854-rnucLEksLEscrfOWoajK26wWrl147Nhua4i3FKCT"
 access_token_secret="IwR6NHmkoc7FaIykxEVhhGTrULV9HnXDbcCtYXBLFY"
 
+ser = serial.Serial('/dev/cu.usbmodemfa131', 9600)
 ser = serial.Serial('/dev/ttyACM0', 9600)
 
 class StdOutListener(StreamListener):
